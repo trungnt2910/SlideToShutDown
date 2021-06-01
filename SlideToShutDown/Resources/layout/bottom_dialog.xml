@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="90dp"
+ app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+     <TextView
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="#fff"
+        android:textSize="18px"
+        android:textAlignment="center"
+        android:drawablePadding="20dp"
+        android:text="Menu" />
+
+    <TextView
+        android:id="@+id/action1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="#fff"
+        android:drawablePadding="16dp"
+        android:text="111111111" />
+
+    <TextView
+        android:id="@+id/action2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="#fff"
+        android:drawablePadding="16dp"  
+        android:text="222222222" />
+
+    <TextView
+        android:id="@+id/action3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="#fff"
+        android:drawablePadding="16dp"
+        android:text="333333333" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#aaa"
+        android:text="Start"
+        android:textColor="#fff" />
+
+</LinearLayout>

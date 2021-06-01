@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<string-array name="appScope" >
+		<item>com.android.systemui</item>
+		<item>com.trungnt2910.slidetoshutdown</item>
+	</string-array>
+</resources>
