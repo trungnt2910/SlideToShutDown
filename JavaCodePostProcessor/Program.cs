@@ -7,8 +7,8 @@ namespace XamarinPosed.JavaCodePostProcessor
 {
     class Program
     {
-        private const string LoaderFileName = "UlyssesLoader.java";
-        private const string FullLoaderFileName = "UlyssesFullLoader.java";
+        private const string LoaderFileName = "Loader.java";
+        private const string FullLoaderFileName = "FullLoader.java";
         private const string FinalFileName = "XamarinPosedLoader.java";
 
         static async Task<int> Main(string[] args)
